@@ -23,7 +23,7 @@ This project is built using the following technologies:
 ## 🏃 Running Tests
 
 You can run tests using npx command
-npx playwright test
+* npx playwright test
 
 ## 📄 License
 
