@@ -1,7 +1,8 @@
 const {test,expect} = require("@playwright/test");
 
 
-test('Hidden element validations', async ({page})=>{
+test.describe.configure({mode:'parallel'})
+test('@Web Hidden element validations', async ({page})=>{
 
     await page.goto("https://rahulshettyacademy.com/AutomationPractice/");
 
@@ -20,7 +21,7 @@ test('Hidden element validations', async ({page})=>{
     await expect(page.locator("#displayed-text")).toBeVisible();
 })
 
-test('Popups and Mouse hover', async ({page})=>{
+test('@Web Popups and Mouse hover', async ({page})=>{
 
     await page.goto("https://rahulshettyacademy.com/AutomationPractice/");
     page.on("dialog",dialog => dialog.accept());

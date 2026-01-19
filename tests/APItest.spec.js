@@ -14,7 +14,7 @@ test.beforeAll(async()=>{
 })
 
 
-test('API Test + End to End test', async ({page})=>{
+test('@API API Test + End to End test', async ({page})=>{
 
 
     const productName = 'ZARA COAT 3';
