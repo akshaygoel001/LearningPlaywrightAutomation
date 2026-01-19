@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","30669","Handling frames","chrome","2026-01-19","broken","2026-01-19","","validations_popups_frames.spec.js","",""
+"","13864","@Web Hidden element validations","chrome","2026-01-19","passed","2026-01-19","","validations_popups_frames.spec.js","",""
+"","6451","@Web Popups and Mouse hover","chrome","2026-01-19","passed","2026-01-19","","validations_popups_frames.spec.js","",""

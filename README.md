@@ -25,6 +25,14 @@ This project is built using the following technologies:
 You can run tests using npx command
 * npx playwright test
 
+## Allure reporting
+* npx playwright test --reporter=line,allure-playwright
+* allure generate ./allure-results --clean
+* allure open ./allure-report
+
+## Trigger tests from package.json
+* npm run regression/webTests/APITests
+
 ## 📄 License
 
 This project is open-source and available for educational purposes.
