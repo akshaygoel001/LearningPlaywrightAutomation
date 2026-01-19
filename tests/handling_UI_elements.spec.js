@@ -54,7 +54,7 @@ test('Radio button handling',async ({page})=>{
 })
 
 
-test.only('Window handling',async ({browser})=>{
+test('Window handling',async ({browser})=>{
 
     const context = await browser.newContext();
     const page = await context.newPage();

@@ -68,7 +68,7 @@ test('Request intercept', async ({ page }) => {
  
 })
 
-test.only('Abort network calls', async ({ browser }) => {
+test('Abort network calls', async ({ browser }) => {
 
     const context = await browser.newContext();
     const page = await context.newPage();

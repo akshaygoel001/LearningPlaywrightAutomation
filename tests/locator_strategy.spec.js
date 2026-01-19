@@ -56,7 +56,7 @@ test('Extract specific indext text from list of webelements', async ({page})=>{
     console.log(await page.locator(".card-title a").allTextContents());
 })
 
-test.only('Extract all texts from list of webelements', async ({page})=>{
+test('Extract all texts from list of webelements', async ({page})=>{
 
     await page.goto("https://rahulshettyacademy.com/loginpagePractise/");
     console.log(await page.title);

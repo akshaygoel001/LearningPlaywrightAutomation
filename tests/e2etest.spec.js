@@ -1,6 +1,6 @@
 const {test, expect} = require("@playwright/test");
 
-test.only('End to End test', async ({page})=>{
+test('End to End test', async ({page})=>{
 
     const productName = 'ZARA COAT 3';
     await page.goto("https://rahulshettyacademy.com/client/#/auth/login");

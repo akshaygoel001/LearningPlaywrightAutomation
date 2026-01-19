@@ -37,7 +37,7 @@ test('Page playwright test',async ({page})=> {
 
 });
 
-test.only('Products title',async ({page})=>{
+test('Products title',async ({page})=>{
     await page.goto("https://rahulshettyacademy.com/client/#/auth/login");
 
     await page.locator("#userEmail").fill("demo234@test.com");

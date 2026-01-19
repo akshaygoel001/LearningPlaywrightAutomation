@@ -32,7 +32,7 @@ async function writeExcelTest(searchText, replaceText,change, filePath) {
 }
 
  
-test.only('Upload download excel validation', async ({ page }) => {
+test('Upload download excel validation', async ({ page }) => {
   const textSearch = 'Mango';
   const updateValue = '350';
  

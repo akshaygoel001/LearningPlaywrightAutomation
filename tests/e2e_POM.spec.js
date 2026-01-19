@@ -37,7 +37,7 @@ for (const data of dataset) {
 
 }
 
-customtest.only('End to End test with POM using Custom fixture ', async ({ page,testDataforPlaceOrder }) => {
+customtest('End to End test with POM using Custom fixture ', async ({ page,testDataforPlaceOrder }) => {
 
         const poManager = new POManager(page);
 
