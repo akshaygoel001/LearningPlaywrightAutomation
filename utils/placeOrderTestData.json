@@ -1,0 +1,14 @@
+[
+    {
+        "useremail": "demo234@test.com",
+        "password": "Test123456",
+        "productName": "ZARA COAT 3",
+        "country": "India"
+    },
+    {
+        "useremail": "demo234@demo.com",
+        "password": "Test123456",
+        "productName": "ADIDAS ORIGINAL",
+        "country": "Cuba"
+    }
+]

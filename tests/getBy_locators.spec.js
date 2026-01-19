@@ -55,9 +55,13 @@ test('Optimized End to End test', async ({page})=>{
 
     await page.getByPlaceholder("Select Country").pressSequentially("ind",{ delay: 150 });
 
-    await page.getByRole("button",{name:'India'}).nth(1).click();
+    await page.locator("section.ta-results").filter({hasText:'India'}).click();
 
-     expect(await page.getByLabel(email).isVisible());
+    //await page.locator("section.ta-results").filter({toEqual:'India'}).click();
+
+    //await page.getByRole("button",{name:'India'}).nth(1).click();
+
+    expect(await page.getByLabel(email).isVisible());
 
     await page.getByText("PLACE ORDER").click();
 
